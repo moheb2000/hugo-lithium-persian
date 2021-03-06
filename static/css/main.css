@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  direction: rtl;
 }
 
 body {
@@ -27,6 +28,7 @@ a {
 
 code {
   background-color: rgba(0, 0, 0, 0.02);
+  direction: ltr;
 }
 
 .wrapper {
@@ -49,7 +51,7 @@ code {
 }
 
 .nav-logo {
-  float: left;
+  float: right;
   margin-top: -11px;
   transition: transform 150ms ease-out;
 }
@@ -74,7 +76,7 @@ code {
 
 .nav-links li {
   display: inline-block;
-  margin: 0 0 0 15px;
+  margin: 0 15px 0 0;
 }
 
 .nav-links li:first-child {
@@ -112,13 +114,13 @@ code {
 
 .article-duration {
   margin-top: 12px;
-  float: right;
+  float: left;
   font-size: 10px;
   padding: 1px 5px;
   font-weight: bold;
   border-radius: 3px;
   background: #bbb;
-  color: #fff
+  color: #fff;
 }
 
 .article-content p {
@@ -264,7 +266,7 @@ code {
   }
 
   .nav-links li {
-    margin: 0 0 0 30px;
+    margin: 0 30px 0 0;
   }
 
   .content {
@@ -278,7 +280,7 @@ code {
   }
 
   .archive {
-    text-align: left;
+    text-align: right;
   }
 
   .archive-title {
@@ -287,8 +289,8 @@ code {
 
   .archive-item-date {
     font-size: 19px;
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
   }
 
   .archive-item-link {
